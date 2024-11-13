@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Tali Khata",
+    "slug": "tali-khata",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.haquexorg.talikhata"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.haquexorg.talikhata"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "24909c06-c1c6-4f67-a297-8c471f9a52a9"
+      }
+    },
+    "owner": "haquex-org",
+    "updates": {
+      "url": "https://u.expo.dev/24909c06-c1c6-4f67-a297-8c471f9a52a9"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
